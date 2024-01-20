@@ -1,9 +1,25 @@
-
+import NavBar from "../../components/NavBar/NavBar"
+import { useState } from "react"
+import * as widget from "./script.js"
 
 const Home = () =>{
+  const [stocks, setStocks] = useState([])
+  
   return(
     <>
-      <h1>Home Page</h1>
+    <NavBar />
+      <main>
+        <div>
+
+          <h1>Watchlist</h1>
+          <h2>test</h2>
+          
+          
+          
+        </div>
+
+        
+      </main>
     </>
   )
 }
